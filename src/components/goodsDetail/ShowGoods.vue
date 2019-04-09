@@ -64,7 +64,7 @@
         <!-- 选择颜色 -->
         <div class="item-select">
           <div class="item-select-title">
-            <p>选择颜色</p>
+            <p>颜色分类</p>
           </div>
           <div class="item-select-column">
             <div class="item-select-row" v-for="(items, index) in goodsInfo.setMeal" :key="index">
@@ -72,15 +72,15 @@
                 <div class="item-select-img">
                   <img :src="item.img" alt="">
                 </div>
-                <div class="item-select-intro">
+                <!--<div class="item-select-intro">
                   <p>{{item.intro}}</p>
-                </div>
+                </div>-->
               </div>
             </div>
           </div>
         </div>
         <!-- 白条分期 -->
-        <div class="item-select">
+        <!--<div class="item-select">
           <div class="item-select-title">
             <p>白条分期</p>
           </div>
@@ -91,11 +91,17 @@
               </Tooltip>
             </div>
           </div>
-        </div>
+        </div>-->
         <br>
         <div class="add-buy-car-box">
           <div class="add-buy-car">
+          	<span class="item-price-title">数量</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <InputNumber :min="1" v-model="count" size="large"></InputNumber>
+            <span>件</span>&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>库存：1274件</span>
+            <br />
+            <br />
+            <Button class="item-buy-like"type="error" size="large" @click="addShoppingCartBtn()">立即购买</Button>
             <Button type="error" size="large" @click="addShoppingCartBtn()">加入购物车</Button>
           </div>
         </div>
@@ -353,11 +359,6 @@ export default {
 }
 .add-buy-car-box {
   width: 100%;
-  margin-top: 15px;
-  border-top: 1px dotted #ccc;
-}
-.add-buy-car {
-  margin-top: 15px;
 }
 .item-price-line{
 	width: 100%;
@@ -395,6 +396,12 @@ export default {
 .item-size li:hover{
 	border: 2px solid red;
 	cursor: pointer;
+}
+.item-buy-like{
+	border: 1px solid red;
+	color: red;
+	background: white;
+	margin-right: 20px;
 }
 /******************商品图片及购买详情结束******************/
 </style>

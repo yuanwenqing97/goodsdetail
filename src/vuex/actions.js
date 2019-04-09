@@ -248,8 +248,18 @@ export const loadGoodsInfo = ({ commit }) => {
               img: 'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif',
               intro: '5.5英寸-香槟金',
               price: 28.5
+            },
+            {
+              img: 'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif',
+              intro: '5.5英寸-香槟金',
+              price: 28.5
+            },
+            {
+              img: 'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif',
+              intro: '5.5英寸-香槟金',
+              price: 28.5
             }
-          ],
+          ]/*,
           [
             {
               img: 'static/img/goodsDetail/pack/4.jpg',
@@ -266,7 +276,7 @@ export const loadGoodsInfo = ({ commit }) => {
               intro: '5.5英寸-星空黑',
               price: 35.0
             }
-          ],
+          ],*/
           /*[
             {
               img: 'static/img/goodsDetail/pack/7.jpg',
@@ -318,10 +328,10 @@ export const loadGoodsInfo = ({ commit }) => {
           }
         ],
         goodsDetail: [
-          'static/img/goodsDetail/intro/1.jpg',
-          'static/img/goodsDetail/intro/2.jpg',
+          'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
+          /*'static/img/goodsDetail/intro/2.jpg',
           'static/img/goodsDetail/intro/3.jpg',
-          'static/img/goodsDetail/intro/4.jpg'
+          'static/img/goodsDetail/intro/4.jpg'*/
         ],
         param: [
           {
@@ -371,42 +381,48 @@ export const loadGoodsInfo = ({ commit }) => {
               values: 3,
               content: '颜色很好看，质量也不错！，还送了个指环，想不到哦！',
               goods: '4.7英寸-深邃蓝',
-              create_at: '2018-05-15 09:20'
+              create_at: '2018-05-15 09:20',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             },
             {
               username: '13****1',
               values: 5,
               content: '手感没的说，是硬壳，后背带有磨砂手感。很不错，很喜欢，还加送了钢化膜，支架环，物超所值，准备再买一个。很满意。物流很快。很愉快的一次购物！',
               goods: '5.5英寸-玫瑰金',
-              create_at: '2018-05-13 15:23'
+              create_at: '2018-05-13 15:23',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             },
             {
               username: '3****z',
               values: 4.5,
               content: '相当轻薄，店家还送了一大堆配件，*元非常值得！',
               goods: '4.7英寸-玫瑰金',
-              create_at: '2018-05-05 12:25'
+              create_at: '2018-05-05 12:25',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             },
             {
               username: 'gd****c',
               values: 3.5,
               content: '就是我想要的手机壳，壳子很薄，手感不错，就像没装手机壳一样，想要裸机手感的赶快下手了。',
               goods: '4.7英寸-中国红',
-              create_at: '2018-04-06 16:23'
+              create_at: '2018-04-06 16:23',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             },
             {
               username: 'r****b',
               values: 4.5,
               content: '壳子还不错，送的膜也可以，不过还是感觉膜小了那么一点，屏幕没法完全覆盖。对了，壳子稍微有点硬，可能会伤漆，所以不要频繁取壳就好。',
               goods: '4.7英寸-中国红',
-              create_at: '2018-03-15 19:24'
+              create_at: '2018-03-15 19:24',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             },
             {
               username: 'd****e',
               values: 5,
               content: '磨砂的，相当漂亮，尺寸非常合适！精工细作！',
               goods: '5.5英寸-星空黑',
-              create_at: '2018-03-10 10:13'
+              create_at: '2018-03-10 10:13',
+              imgs:'static/img/goodsDetail/psd/直播/images/images/宝贝详情_27.gif'
             }
           ]
         }
